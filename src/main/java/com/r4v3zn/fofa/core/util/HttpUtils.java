@@ -50,21 +50,19 @@ public class HttpUtils {
             URL url = new URL(actionUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
-            try {
-                //获取URL的响应
-                BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), "utf-8"));
-                String s = "";
-                String temp = "";
-                while ((temp = reader.readLine()) != null) {
-                    s += temp;
-                }
-                result = s;
-                reader.close();
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
+            BufferedReader reader = null;
+            if(HttpURLConnection.HTTP_OK == connection.getResponseCode()){
+                reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), "utf-8"));
+            }else{
+                reader = new BufferedReader(new InputStreamReader(connection.getErrorStream(), "utf-8"));
             }
+            String s = "";
+            String temp = "";
+            while ((temp = reader.readLine()) != null) {
+                s += temp;
+            }
+            result = s;
+            reader.close();
         } catch (ProtocolException e) {
             e.printStackTrace();
         } catch (MalformedURLException e) {

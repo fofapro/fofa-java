@@ -3,6 +3,7 @@ com/r4v3zn/fofa/core/constants/FofaFieldsConsts.class
 com/r4v3zn/fofa/core/enmus/UserVipLevelEnum.class
 com/r4v3zn/fofa/core/constants/FofaClientConsts.class
 com/r4v3zn/fofa/core/client/FofaClient.class
+com/r4v3zn/fofa/core/util/HttpUtils.class
 com/r4v3zn/fofa/core/DO/FofaData.class
 com/r4v3zn/fofa/core/DO/User.class
 com/r4v3zn/fofa/core/DO/UserLogin.class

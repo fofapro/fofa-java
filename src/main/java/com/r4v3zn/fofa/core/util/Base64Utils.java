@@ -1,6 +1,5 @@
 package com.r4v3zn.fofa.core.util;
 
-import cn.hutool.core.codec.Base64;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
