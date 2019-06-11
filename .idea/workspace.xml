@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23e4a241-d992-4d4b-b043-4774dd82b799" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fofa-core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/r4v3zn/fofa/core/util/Base64Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/r4v3zn/fofa/core/util/Base64Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/r4v3zn/fofa/core/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/r4v3zn/fofa/core/util/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/FofaData.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/FofaData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/UserLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/UserLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/class-use/FofaData.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/class-use/FofaData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/class-use/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/class-use/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/class-use/UserLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/class-use/UserLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/DO/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/FofaClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/FofaClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/class-use/FofaClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/class-use/FofaClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/client/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/FofaClientConsts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/FofaClientConsts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/FofaFieldsConsts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/FofaFieldsConsts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/UserConsts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/UserConsts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/class-use/FofaClientConsts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/class-use/FofaClientConsts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/class-use/FofaFieldsConsts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/class-use/FofaFieldsConsts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/class-use/UserConsts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/class-use/UserConsts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/constants/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/UserVipLevelEnum.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/UserVipLevelEnum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/class-use/UserVipLevelEnum.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/class-use/UserVipLevelEnum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/enmus/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/FofaException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/FofaException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/class-use/FofaException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/class-use/FofaException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/exception/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/Base64Utils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/Base64Utils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/class-use/Base64Utils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/class-use/Base64Utils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/r4v3zn/fofa/core/util/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fofa-core-1.0.0-javadoc.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/fofa-core-1.0.0-javadoc.jar.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fofa-core-1.0.0-sources.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/fofa-core-1.0.0-sources.jar.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fofa-core-1.0.0.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/fofa-core-1.0.0.jar.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fofa-core-1.0.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/target/fofa-core-1.0.0.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fofa-core-1.0.0.pom.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/fofa-core-1.0.0.pom.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FofaClientTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-FofaClientTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,14 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <first_editor relative-caret-position="290">
+                <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -119,6 +59,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/r4v3zn/fofa/core/client/FofaClient.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -230,6 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -287,12 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560222027063</updated>
-      <workItem from="1560222028811" duration="8207000" />
+      <workItem from="1560222028811" duration="8709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8207000" />
+    <option name="totallyTimeSpent" value="8709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -378,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FofaClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -406,13 +341,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FofaClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <first_editor relative-caret-position="290">
+            <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
