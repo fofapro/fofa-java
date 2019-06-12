@@ -1,5 +1,8 @@
 import com.r4v3zn.fofa.core.client.FofaClient;
 
+import java.io.*;
+import java.util.Base64;
+
 /**
  * Title: FofaClientTest
  * Descrption: TODO
@@ -12,6 +15,7 @@ import com.r4v3zn.fofa.core.client.FofaClient;
  */
 public class FofaClientTest {
     public static void main(String[] args) throws Exception {
+        // FOFA Pro email
         String email = "xxx";
         // FOFA Pro key
         String key = "xxx";
