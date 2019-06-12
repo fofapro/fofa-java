@@ -3,7 +3,7 @@
 [![stars](https://img.shields.io/github/stars/0nise/fofa-java.svg)](https://github.com/0nise/fofa-java/stargazers)
 [![license](https://img.shields.io/github/license/0nise/fofa-java.svg)](https://github.com/0nise/fofa-java/blob/master/LICENSE)
 
-[English document](https://github.com/0nise/fofa-java/blob/master/README_ZH.md)
+[English document](https://github.com/0nise/fofa-java/blob/master/README.md)
 
 ## FOFA Pro API
 [`FOFA Pro API`](https://fofa.so/api) 是资产搜索引擎 [`FOFA Pro`](https://fofa.so) 为开发者提供的 `RESTful API` 接口, 允许开发者在自己的项目中集成 [`FOFA Pro`](https://fofa.so) 的功能。
