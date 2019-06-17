@@ -1,7 +1,7 @@
 # fofa-java
-[![GitHub (pre-)release](https://img.shields.io/github/release/0nise/fofa-java/all.svg)](https://github.com/0nise/fofa-java/releases)
-[![stars](https://img.shields.io/github/stars/0nise/fofa-java.svg)](https://github.com/0nise/fofa-java/stargazers)
-[![license](https://img.shields.io/github/license/0nise/fofa-java.svg)](https://github.com/0nise/fofa-java/blob/master/LICENSE)
+[![GitHub (pre-)release](https://img.shields.io/github/release/fofapro/fofa-java/all.svg)](https://github.com/0nise/fofa-java/releases)
+[![stars](https://img.shields.io/github/stars/fofapro/fofa-java.svg)](https://github.com/0nise/fofa-java/stargazers)
+[![license](https://img.shields.io/github/license/fofapro/fofa-java.svg)](https://github.com/0nise/fofa-java/blob/master/LICENSE)
 
 [English document](https://github.com/0nise/fofa-java/blob/master/README.md)
 
