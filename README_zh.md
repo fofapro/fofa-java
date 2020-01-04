@@ -109,6 +109,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 
 ## 更新日志
 
+2020-01-04
+
+    - 修复安全漏洞
+
 2019-06-12
 
     - 添加中文文档

@@ -28,12 +28,12 @@
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/Users/0nise/software/apache-maven-3.5.3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/0nise/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.library.path" value="/usr/local/mysql/lib/:/Users/0nise/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="maven.conf" value="/Users/0nise/software/apache-maven-3.5.3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.13.4"/>
+    <property name="os.version" value="10.14.6"/>
     <property name="library.jansi.path" value="/Users/0nise/software/apache-maven-3.5.3/lib/jansi-native"/>
     <property name="user.home" value="/Users/0nise"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
@@ -48,7 +48,6 @@
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean deploy -P release"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
-    <property name="user.language.format" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_171"/>

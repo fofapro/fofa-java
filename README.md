@@ -109,6 +109,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 
 ## Update Log
 
+2020-01-04
+
+    - Fixing security holes
+
 2019-06-12
 
     - Add Chinese document
