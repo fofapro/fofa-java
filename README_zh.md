@@ -1,4 +1,5 @@
 # fofa-java
+
 [![GitHub (pre-)release](https://img.shields.io/github/release/fofapro/fofa-java/all.svg)](https://github.com/0nise/fofa-java/releases)
 [![stars](https://img.shields.io/github/stars/fofapro/fofa-java.svg)](https://github.com/0nise/fofa-java/stargazers)
 [![license](https://img.shields.io/github/license/fofapro/fofa-java.svg)](https://github.com/0nise/fofa-java/blob/master/LICENSE)
@@ -6,64 +7,91 @@
 [English document](https://github.com/0nise/fofa-java/blob/master/README.md)
 
 ## FOFA Pro API
+
 [`FOFA Pro API`](https://fofa.so/api) 是资产搜索引擎 [`FOFA Pro`](https://fofa.so) 为开发者提供的 `RESTful API` 接口, 允许开发者在自己的项目中集成 [`FOFA Pro`](https://fofa.so) 的功能。
+
 ## FOFA SDK
+
 基于 [`FOFA Pro API`](https://fofa.so/api) 编写的 `java` 版 `SDK`, 方便 java 开发者快速将 [`FOFA Pro`](https://fofa.so) 集成到自己的项目中。
+
 ## 添加依赖
+
 ### Apache Maven
+
 ```
 <dependency>
   <groupId>com.r4v3zn.fofa</groupId>
   <artifactId>fofa-core</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2.RELEASE</version>
 </dependency>
 ```
+
 ### Gradle Groovy DSL
+
 ```java
-implementation 'com.r4v3zn.fofa:fofa-core:1.0.0'
+implementation 'com.r4v3zn.fofa:fofa-core:1.0.2.RELEASE'
 ```
+
 ### Gradle Kotlin DSL
+
 ```java
-compile("com.r4v3zn.fofa:fofa-core:1.0.0")
+implementation("com.r4v3zn.fofa:fofa-core:1.0.2.RELEASE")
 ```
+
 ### Scala SBT
+
 ```java
-libraryDependencies += "com.r4v3zn.fofa" % "fofa-core" % "1.0.0"
+libraryDependencies += "com.r4v3zn.fofa" % "fofa-core" % "1.0.2.RELEASE"
 ```
+
 ### Apache Ivy
+
 ```java
-<dependency org="com.r4v3zn.fofa" name="fofa-core" rev="1.0.0" />
+<dependency org="com.r4v3zn.fofa" name="fofa-core" rev="1.0.2.RELEASE" />
 ```
+
 ### Groovy Grape
+
 ```java
 @Grapes(
-  @Grab(group='com.r4v3zn.fofa', module='fofa-core', version='1.0.0')
+  @Grab(group='com.r4v3zn.fofa', module='fofa-core', version='1.0.2.RELEASE')
 )
 ```
+
 ### Leiningen
+
 ```java
-[com.r4v3zn.fofa/fofa-core "1.0.0"]
+[com.r4v3zn.fofa/fofa-core "1.0.2.RELEASE"]
 ```
+
 ### Apache Buildr
+
 ```java
-'com.r4v3zn.fofa:fofa-core:jar:1.0.0'
+'com.r4v3zn.fofa:fofa-core:jar:1.0.2.RELEASE'
 ```
+
 ### Maven Central Badge
+
 ```java
 [![Maven Central](https://img.shields.io/maven-central/v/com.r4v3zn.fofa/fofa-core.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.r4v3zn.fofa%22%20AND%20a:%22fofa-core%22)
 ```
+
 ### PURL
+
 ```java
-pkg:maven/com.r4v3zn.fofa/fofa-core@1.0.0
+pkg:maven/com.r4v3zn.fofa/fofa-core@1.0.2.RELEASE
 ```
+
 ### Bazel
+
 ```java
 maven_jar(
     name = "fofa-core",
-    artifact = "com.r4v3zn.fofa:fofa-core:1.0.0",
-    sha1 = "93b888a1d1c42c696f60f246585609d66f72eb8b",
+    artifact = "com.r4v3zn.fofa:fofa-core:1.0.2.RELEASE",
+    sha1 = "669cac1d690068d60a8e9968d86340b8769810cb",
 )
 ```
+
 
 ## 使用
 
@@ -108,6 +136,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 ```
 
 ## 更新日志
+
+2020-04-27
+
+    - 修复安全漏洞
 
 2020-01-04
 
