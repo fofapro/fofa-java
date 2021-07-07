@@ -35,7 +35,7 @@
             </plugin>
         </plugins>
     </build>
-    <version>1.0.2.RELEASE</version>
+    <version>1.0.3.RELEASE</version>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -59,6 +59,11 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.10.0.pr1</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-core</artifactId>
+            <version>5.7.3</version>
         </dependency>
     </dependencies>
     <distributionManagement>

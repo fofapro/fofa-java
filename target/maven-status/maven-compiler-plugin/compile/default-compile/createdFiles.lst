@@ -7,5 +7,4 @@ com/r4v3zn/fofa/core/util/HttpUtils.class
 com/r4v3zn/fofa/core/DO/FofaData.class
 com/r4v3zn/fofa/core/DO/User.class
 com/r4v3zn/fofa/core/DO/UserLogin.class
-com/r4v3zn/fofa/core/util/Base64Utils.class
 com/r4v3zn/fofa/core/exception/FofaException.class

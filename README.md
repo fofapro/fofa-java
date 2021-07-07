@@ -18,7 +18,7 @@ A `Java` version of the `SDK`, based on the [`FOFA Pro API`](https://fofa.so/api
 <dependency>
   <groupId>com.r4v3zn.fofa</groupId>
   <artifactId>fofa-core</artifactId>
-  <version>1.0.2.RELEASE</version>
+  <version>1.0.3.RELEASE</version>
 </dependency>
 ```
 

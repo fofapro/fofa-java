@@ -15,6 +15,7 @@
 
 package com.r4v3zn.fofa.core.client;
 
+import cn.hutool.core.codec.Base64;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.r4v3zn.fofa.core.DO.FofaData;
@@ -24,9 +25,10 @@ import com.r4v3zn.fofa.core.enmus.UserVipLevelEnum;
 import com.r4v3zn.fofa.core.exception.FofaException;
 import com.r4v3zn.fofa.core.util.HttpUtils;
 import java.util.*;
+
+import static cn.hutool.core.codec.Base64.encode;
 import static com.r4v3zn.fofa.core.constants.FofaClientConsts.*;
 import static com.r4v3zn.fofa.core.constants.FofaFieldsConsts.FIELDS_LIST;
-import static com.r4v3zn.fofa.core.util.Base64Utils.encode;
 
 /**
  * Title: FofaClient
@@ -180,7 +182,7 @@ public class FofaClient {
        full = full == null ? false:full;
        String url = BASE_URL+SEARCH_URI;
        Map<String,Object> map = new HashMap<String, Object>();
-       map.put("qbase64",encode(q));
+       map.put("qbase64", encode(q));
        map.put("page", page);
        map.put("size", size);
        map.put("fields", fields);
