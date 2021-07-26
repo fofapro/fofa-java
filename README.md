@@ -18,7 +18,7 @@ A `Java` version of the `SDK`, based on the [`FOFA Pro API`](https://fofa.so/api
 <dependency>
   <groupId>com.r4v3zn.fofa</groupId>
   <artifactId>fofa-core</artifactId>
-  <version>1.0.3.RELEASE</version>
+  <version>1.0.4.RELEASE</version>
 </dependency>
 ```
 
@@ -131,6 +131,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 ```
 
 ## Update Log
+
+2021-07-26
+
+    - Update jackson version
 
 2020-04-27
 

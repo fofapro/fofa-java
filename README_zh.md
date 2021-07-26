@@ -137,6 +137,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 
 ## 更新日志
 
+2021-07-26
+
+    - 更新 jackson 版本
+
 2020-04-27
 
     - 修复安全漏洞
