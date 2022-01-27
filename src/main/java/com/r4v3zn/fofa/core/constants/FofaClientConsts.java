@@ -30,20 +30,20 @@ public class FofaClientConsts {
     /**
      * Base FOFA Pro Api
      */
-    public  static  final  String BASE_URL = "https://fofa.so";
+    public static  String BASE_URL = "https://fofapro.com";
 
     /**
      * get user info uri
      */
-    public static final  String GET_USER_INFO_URI = "/api/v1/info/my";
+    public static  String GET_USER_INFO_URI = "/api/v1/info/my";
 
     /**
      * search uri
      */
-    public static final String SEARCH_URI = "/api/v1/search/all";
+    public static String SEARCH_URI = "/api/v1/search/all";
 
     /**
      * max size
      */
-    public static final  Integer MAX_SIZE = 10000;
+    public static Integer MAX_SIZE = 10000;
 }

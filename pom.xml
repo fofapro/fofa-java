@@ -22,7 +22,7 @@
     <artifactId>fofa-core</artifactId>
     <name>fofa-java</name>
     <description>Thi is a FOFA Pro SDK</description>
-    <url>https://github.com/0nise/fofa-java</url>
+    <url>https://github.com/fofapro/fofa-java</url>
     <build>
         <plugins>
             <plugin>
@@ -35,7 +35,7 @@
             </plugin>
         </plugins>
     </build>
-    <version>1.0.4.RELEASE</version>
+    <version>1.0.5.RELEASE</version>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -78,19 +78,16 @@
     </distributionManagement>
     <issueManagement>
         <system>Github Issue</system>
-        <url>https://github.com/0nise/fofa-java/issues</url>
+        <url>https://github.com/fofapro/fofa-java/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:https://github.com/0nise/fofa-java.git</connection>
-        <developerConnection>scm:git:https://github.com/0nise/fofa-java.git</developerConnection>
-        <url>https://github.com/0nise/fofa-java.git</url>
+        <connection>scm:git:https://github.com/fofapro/fofa-java.git</connection>
+        <developerConnection>scm:git:https://github.com/fofapro/fofa-java.git</developerConnection>
+        <url>https://github.com/fofapro/fofa-java.git</url>
     </scm>
     <profiles>
         <profile>
             <id>release</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <distributionManagement>
                 <snapshotRepository>
                     <id>oss</id>
@@ -107,9 +104,10 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
-                        <version>3.0.1</version>
+                        <version>3.2.1</version>
                         <executions>
                             <execution>
+                                <id>oss</id>
                                 <phase>package</phase>
                                 <goals>
                                     <goal>jar-no-fork</goal>
@@ -138,7 +136,7 @@
                         <version>1.6</version>
                         <executions>
                             <execution>
-                                <id>sign-artifacts</id>
+                                <id>oss</id>
                                 <phase>verify</phase>
                                 <goals>
                                     <goal>sign</goal>
@@ -146,8 +144,20 @@
                             </execution>
                         </executions>
                     </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>oss</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
                 </plugins>
             </build>
         </profile>
     </profiles>
+
 </project>

@@ -18,52 +18,52 @@ A `Java` version of the `SDK`, based on the [`FOFA Pro API`](https://fofa.so/api
 <dependency>
   <groupId>com.r4v3zn.fofa</groupId>
   <artifactId>fofa-core</artifactId>
-  <version>1.0.4.RELEASE</version>
+  <version>1.0.5.RELEASE</version>
 </dependency>
 ```
 
 ### Gradle Groovy DSL
 
 ```java
-implementation 'com.r4v3zn.fofa:fofa-core:1.0.4.RELEASE'
+implementation 'com.r4v3zn.fofa:fofa-core:1.0.5.RELEASE'
 ```
 
 ### Gradle Kotlin DSL
 
 ```java
-implementation("com.r4v3zn.fofa:fofa-core:1.0.4.RELEASE")
+implementation("com.r4v3zn.fofa:fofa-core:1.0.5.RELEASE")
 ```
 
 ### Scala SBT
 
 ```java
-libraryDependencies += "com.r4v3zn.fofa" % "fofa-core" % "1.0.4.RELEASE"
+libraryDependencies += "com.r4v3zn.fofa" % "fofa-core" % "1.0.5.RELEASE"
 ```
 
 ### Apache Ivy
 
 ```java
-<dependency org="com.r4v3zn.fofa" name="fofa-core" rev="1.0.4.RELEASE" />
+<dependency org="com.r4v3zn.fofa" name="fofa-core" rev="1.0.5.RELEASE" />
 ```
 
 ### Groovy Grape
 
 ```java
 @Grapes(
-  @Grab(group='com.r4v3zn.fofa', module='fofa-core', version='1.0.4.RELEASE')
+  @Grab(group='com.r4v3zn.fofa', module='fofa-core', version='1.0.5.RELEASE')
 )
 ```
 
 ### Leiningen
 
 ```java
-[com.r4v3zn.fofa/fofa-core "1.0.4.RELEASE"]
+[com.r4v3zn.fofa/fofa-core "1.0.5.RELEASE"]
 ```
 
 ### Apache Buildr
 
 ```java
-'com.r4v3zn.fofa:fofa-core:jar:1.0.4.RELEASE'
+'com.r4v3zn.fofa:fofa-core:jar:1.0.5.RELEASE'
 ```
 
 ### Maven Central Badge
@@ -75,7 +75,7 @@ libraryDependencies += "com.r4v3zn.fofa" % "fofa-core" % "1.0.4.RELEASE"
 ### PURL
 
 ```java
-pkg:maven/com.r4v3zn.fofa/fofa-core@1.0.4.RELEASE
+pkg:maven/com.r4v3zn.fofa/fofa-core@1.0.5.RELEASE
 ```
 
 ### Bazel
@@ -83,7 +83,7 @@ pkg:maven/com.r4v3zn.fofa/fofa-core@1.0.4.RELEASE
 ```java
 maven_jar(
     name = "fofa-core",
-    artifact = "com.r4v3zn.fofa:fofa-core:1.0.4.RELEASE",
+    artifact = "com.r4v3zn.fofa:fofa-core:1.0.5.RELEASE",
     sha1 = "151fc5fe259ccad55c040ed46d40b9bc19dd6b32",
 )
 ```
@@ -131,6 +131,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 ```
 
 ## Update Log
+
+2022-01-27
+
+    - update fofa
 
 2021-07-26
 
