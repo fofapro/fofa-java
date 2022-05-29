@@ -17,7 +17,7 @@ package com.r4v3zn.fofa.core.DO;
 
 /**
  * Title: UserLogin
- * Descrption: UserLogin DO
+ * Description: UserLogin DO
  * Date:2019-06-07 16:13
  * Email:woo0nise@gmail.com
  * Company:www.j2ee.app

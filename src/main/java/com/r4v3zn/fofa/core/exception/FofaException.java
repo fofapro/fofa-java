@@ -17,7 +17,7 @@ package com.r4v3zn.fofa.core.exception;
 
 /**
  * Title: FofaException
- * Descrption: FofaException
+ * Description: FofaException
  * Date:2019-06-07 16:12
  * Email:woo0nise@gmail.com
  * Company:www.j2ee.app

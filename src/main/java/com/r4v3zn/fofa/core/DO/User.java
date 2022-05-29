@@ -19,7 +19,7 @@ import com.r4v3zn.fofa.core.enmus.UserVipLevelEnum;
 
 /**
  * Title: User
- * Descrption: this is User
+ * Description: this is User
  * Date:2019-06-07 16:00
  * Email:woo0nise@gmail.com
  * Company:www.j2ee.app

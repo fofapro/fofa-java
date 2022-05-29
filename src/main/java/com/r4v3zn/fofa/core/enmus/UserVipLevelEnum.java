@@ -17,7 +17,7 @@ package com.r4v3zn.fofa.core.enmus;
 
 /**
  * Title: UserVipLevelEnum
- * Descrption: TODO
+ * Description: User level
  * Date:2019-06-07 20:45
  * Email:woo0nise@gmail.com
  * Company:www.j2ee.app

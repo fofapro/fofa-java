@@ -15,16 +15,18 @@
 
 package com.r4v3zn.fofa.core.util;
 
+import cn.hutool.core.lang.Console;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
-import java.util.HashMap;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 
 /**
  * Title: HttpUtils
- * Descrption: HttpUtils
+ * Description: HttpUtils
  * Date:2019-06-10 19:10
  * Email:woo0nise@gmail.com
  * Company:www.j2ee.app
@@ -58,30 +60,29 @@ public class HttpUtils {
             if(map != null && map.size() > 0){
                 actionUrl += "?";
 
+                StringBuilder actionUrlBuilder = new StringBuilder(actionUrl);
                 for (String key: map.keySet()) {
-                    actionUrl += key + "="+URLEncoder.encode(map.get(key).toString(), "UTF-8")+"&";
+                    actionUrlBuilder.append(key).append("=")
+                            .append(URLEncoder.encode(map.get(key).toString(), "UTF-8")).append("&");
                 }
+                actionUrl = actionUrlBuilder.toString();
             }
             URL url = new URL(actionUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             BufferedReader reader = null;
             if(HttpURLConnection.HTTP_OK == connection.getResponseCode()){
-                reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), "utf-8"));
+                reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8));
             }else{
-                reader = new BufferedReader(new InputStreamReader(connection.getErrorStream(), "utf-8"));
+                reader = new BufferedReader(new InputStreamReader(connection.getErrorStream(), StandardCharsets.UTF_8));
             }
-            String s = "";
+            StringBuilder s = new StringBuilder();
             String temp = "";
             while ((temp = reader.readLine()) != null) {
-                s += temp;
+                s.append(temp);
             }
-            result = s;
+            result = s.toString();
             reader.close();
-        } catch (ProtocolException e) {
-            e.printStackTrace();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }

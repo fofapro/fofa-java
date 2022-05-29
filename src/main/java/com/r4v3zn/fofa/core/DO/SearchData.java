@@ -18,16 +18,16 @@ package com.r4v3zn.fofa.core.DO;
 import java.util.List;
 
 /**
- * Title: FofaData
+ * Title: SearchData
  * Description: this is fofa data
- * Date:2019-06-08 17:49
+ * Date:2022-05-29 13:07
  * Email:woo0nise@gmail.com
- * Company:www.j2ee.app
+ * Company:fofa.info
  *
  * @author R4v3zn
  * @version 1.0.0
  */
-public class FofaData {
+public class SearchData {
 
     /**
      * mode
@@ -59,32 +59,44 @@ public class FofaData {
      */
     private List<List<String>> results;
 
-    public void setQuery(String query) {
-        this.query = query;
-    }
-
-    public String getQuery() {
-        return query;
-    }
-
-    public void setTotalPage(Integer totalPage) {
-        this.totalPage = totalPage;
-    }
-
-    public Integer getTotalPage() {
-        return totalPage;
-    }
-
     public String getMode() {
         return mode;
+    }
+
+    public void setMode(String mode) {
+        this.mode = mode;
     }
 
     public Integer getPage() {
         return page;
     }
 
+    public void setPage(Integer page) {
+        this.page = page;
+    }
+
     public Integer getSize() {
         return size;
+    }
+
+    public void setSize(Integer size) {
+        this.size = size;
+    }
+
+    public Integer getTotalPage() {
+        return totalPage;
+    }
+
+    public void setTotalPage(Integer totalPage) {
+        this.totalPage = totalPage;
+    }
+
+    public String getQuery() {
+        return query;
+    }
+
+    public void setQuery(String query) {
+        this.query = query;
     }
 
     public List<List<String>> getResults() {
@@ -93,18 +105,6 @@ public class FofaData {
 
     public void setResults(List<List<String>> results) {
         this.results = results;
-    }
-
-    public void setMode(String mode) {
-        this.mode = mode;
-    }
-
-    public void setPage(Integer page) {
-        this.page = page;
-    }
-
-    public void setSize(Integer size) {
-        this.size = size;
     }
 
     @Override
