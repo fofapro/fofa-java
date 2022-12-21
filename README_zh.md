@@ -122,7 +122,7 @@ public static void main(String[] args) throws Exception {
     String email = "";
     // FOFA Pro key
     String key = "";
-    BASE_URL = "https://fofa.info";
+    FofaConstants.BASE_URL = "https://fofa.info";
     FofaClient fofaClient = new FofaClient(email, key);
     FofaSearch fofaSearch = new FofaSearch(fofaClient);
     String query = "host=\"fofa.info\"";
@@ -146,7 +146,7 @@ public static void main(String[] args) throws Exception {
     String email = "";
     // FOFA Pro key
     String key = "";
-    BASE_URL = "https://fofa.info";
+    FofaConstants.BASE_URL = "https://fofa.info";
     FofaClient fofaClient = new FofaClient(email, key);
     FofaSearch fofaSearch = new FofaSearch(fofaClient);
     String query = "host=\"fofa.info\"";
@@ -170,7 +170,7 @@ public static void main(String[] args) throws Exception {
     String email = "";
     // FOFA Pro key
     String key = "";
-    BASE_URL = "https://fofa.info";
+    FofaConstants.BASE_URL = "https://fofa.info";
     FofaClient fofaClient = new FofaClient(email, key);
     FofaHost fofaHost = new FofaHost(fofaClient);
     String host = "fofa.info";
