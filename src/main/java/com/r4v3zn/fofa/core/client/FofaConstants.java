@@ -31,7 +31,7 @@ public abstract class FofaConstants {
     /**
      * Base FOFA Pro
      */
-    public static String BASE_URL = "https://fofapro.com";
+    public static String BASE_URL = "https://fofa.info";
 
     /**
      * get user info uri
@@ -49,19 +49,23 @@ public abstract class FofaConstants {
     public static String SEARCH_STATS_URI = "/api/v1/search/stats";
 
     /**
+     * search next uri
+     */
+    public static String SEARCH_NEXT_URI = "/api/v1/search/next";
+
+    /**
      * host uri
      */
     public static String HOST_URI = "/api/v1/host/";
-
     /**
      * search all max size
      */
-    public static Integer SEARCH_ALL_MAX_SIZE = 10000;
+    public static Integer SEARCH_MAX_SIZE = 10000;
 
     /**
      * search all full default of value
      */
-    public static Boolean SEARCH_ALL_FULL_DEFAULT_VALUE = false;
+    public static Boolean SEARCH_FULL_DEFAULT_VALUE = false;
 
     /**
      * search all page default of value
@@ -71,12 +75,32 @@ public abstract class FofaConstants {
     /**
      * search all size default of value
      */
-    public static Integer SEARCH_ALL_SIZE_DEFAULT_VALUE = 10000;
+    public static Integer SEARCH_SIZE_DEFAULT_VALUE = 10000;
+
+    /**
+     * query field contains cert and banner default
+     */
+    public static Integer SEARCH_CERT_OR_BANNER_DEFAULT_VALUE = 2000;
+
+    /**
+     * query field contains body default
+     */
+    public static Integer SEARCH_BODY_DEFAULT_VALUE = 500;
+
+    /**
+     * query field contains cert and banner max
+     */
+    public static Integer SEARCH_CERT_OR_BANNER_MAX_SIZE = 2000;
+
+    /**
+     * query field contains cert and banner max
+     */
+    public static Integer SEARCH_BODY_MAX_SIZE = 500;
 
     /**
      * search all fields default of value
      */
-    public static String[] SEARCH_ALL_FIELDS_DEFAULT_VALUE = new String[]{"host"};
+    public static String[] SEARCH_FIELDS_DEFAULT_VALUE = new String[]{"host"};
 
     /**
      * search stats fields default of value
@@ -95,5 +119,4 @@ public abstract class FofaConstants {
      * search stats fields list
      */
     public static List<String> SEARCH_STATS_FIELDS_LIST = Arrays.asList("protocol", "domain", "port", "title", "os", "server", "country");
-
 }

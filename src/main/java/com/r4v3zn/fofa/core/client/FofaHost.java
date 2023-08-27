@@ -111,7 +111,6 @@ public class FofaHost {
     public static void main(String[] args) throws Exception {
         String email = "";
         String key = "";
-        BASE_URL = "https://fofa.info";
         FofaClient fofaClient = new FofaClient(email, key);
         FofaHost fofaHost = new FofaHost(fofaClient);
         String host = "fofa.info";

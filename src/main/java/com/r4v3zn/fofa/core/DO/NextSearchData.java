@@ -14,20 +14,24 @@
  */
 
 package com.r4v3zn.fofa.core.DO;
-
 import java.util.List;
 
 /**
- * Title: FofaData
- * Description: this is fofa data
- * Date:2019-06-08 17:49
- * Email:woo0nise@gmail.com
- * Company:www.j2ee.app
- *
- * @author R4v3zn
+ * FOFA Search next API Entity
+ * @author R4v3zn woo0nise@gmail.com
  * @version 1.0.0
  */
-public class FofaData {
+public class NextSearchData {
+
+    /**
+     * current id
+     */
+    private String id;
+
+    /**
+     * next id
+     */
+    private String next;
 
     /**
      * mode
@@ -35,56 +39,57 @@ public class FofaData {
     private String mode;
 
     /**
-     * current page no
-     */
-    private Integer page;
-
-    /**
      * total size
      */
     private Integer size;
 
     /**
-     * total page
-     */
-    private Integer totalPage;
-
-    /**
      * query
      */
     private String query;
-
     /**
      * results
      */
     private List<List<String>> results;
 
-    public void setQuery(String query) {
-        this.query = query;
+    public String getId() {
+        return id;
     }
 
-    public String getQuery() {
-        return query;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public void setTotalPage(Integer totalPage) {
-        this.totalPage = totalPage;
+    public String getNext() {
+        return next;
     }
 
-    public Integer getTotalPage() {
-        return totalPage;
+    public void setNext(String next) {
+        this.next = next;
     }
 
     public String getMode() {
         return mode;
     }
 
-    public Integer getPage() {
-        return page;
+    public void setMode(String mode) {
+        this.mode = mode;
     }
 
     public Integer getSize() {
         return size;
+    }
+
+    public void setSize(Integer size) {
+        this.size = size;
+    }
+
+    public String getQuery() {
+        return query;
+    }
+
+    public void setQuery(String query) {
+        this.query = query;
     }
 
     public List<List<String>> getResults() {
@@ -95,25 +100,13 @@ public class FofaData {
         this.results = results;
     }
 
-    public void setMode(String mode) {
-        this.mode = mode;
-    }
-
-    public void setPage(Integer page) {
-        this.page = page;
-    }
-
-    public void setSize(Integer size) {
-        this.size = size;
-    }
-
     @Override
     public String toString() {
-        return "FofaData{" +
-                "mode='" + mode + '\'' +
-                ", page=" + page +
+        return "NextSearchData{" +
+                "id='" + id + '\'' +
+                ", next='" + next + '\'' +
+                ", mode='" + mode + '\'' +
                 ", size=" + size +
-                ", totalPage=" + totalPage +
                 ", query='" + query + '\'' +
                 ", results=" + results +
                 '}';
