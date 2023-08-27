@@ -69,6 +69,7 @@ public class FofaClient {
 
     /**
      * get user info
+     * @throws Exception error
      * @return user info
      */
     public User getUser() throws Exception{
