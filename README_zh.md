@@ -14,9 +14,7 @@
 
 基于 [`FOFA Pro API`](https://fofa.info/api) 编写的 `java` 版 `SDK`, 方便 java 开发者快速将 [`FOFA Pro`](https://fofa.info) 集成到自己的项目中。
 
-## 添加依赖
-
-### Apache Maven
+## Apache Maven
 
 ```java
 <dependency>
@@ -24,72 +22,6 @@
   <artifactId>fofa-core</artifactId>
   <version>1.0.7.RELEASE</version>
 </dependency>
-```
-
-### Gradle Groovy DSL
-
-```java
-implementation 'com.r4v3zn.fofa:fofa-core:1.0.7.RELEASE'
-```
-
-### Gradle Kotlin DSL
-
-```java
-implementation("com.r4v3zn.fofa:fofa-core:1.0.7.RELEASE")
-```
-
-### Scala SBT
-
-```java
-libraryDependencies += "com.r4v3zn.fofa" % "fofa-core" % "1.0.7.RELEASE"
-```
-
-### Apache Ivy
-
-```java
-<dependency org="com.r4v3zn.fofa" name="fofa-core" rev="1.0.7.RELEASE" />
-```
-
-### Groovy Grape
-
-```java
-@Grapes(
-  @Grab(group='com.r4v3zn.fofa', module='fofa-core', version='1.0.7.RELEASE')
-)
-```
-
-### Leiningen
-
-```java
-[com.r4v3zn.fofa/fofa-core "1.0.7.RELEASE"]
-```
-
-### Apache Buildr
-
-```java
-'com.r4v3zn.fofa:fofa-core:jar:1.0.7.RELEASE'
-```
-
-### Maven Central Badge
-
-```java
-[![Maven Central](https://img.shields.io/maven-central/v/com.r4v3zn.fofa/fofa-core.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.r4v3zn.fofa%22%20AND%20a:%22fofa-core%22)
-```
-
-### PURL
-
-```java
-pkg:maven/com.r4v3zn.fofa/fofa-core@1.0.7.RELEASE
-```
-
-### Bazel
-
-```java
-maven_jar(
-    name = "fofa-core",
-    artifact = "com.r4v3zn.fofa:fofa-core:1.0.7.RELEASE",
-    sha1 = "151fc5fe259ccad55c040ed46d40b9bc19dd6b32",
-)
 ```
 
 ## 使用
